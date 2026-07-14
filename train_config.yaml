@@ -1,0 +1,23 @@
+model:
+  base_model: ./gemma3-270m
+  source: ModelScope
+data:
+  train_jsonl: ./logo-detailed-prompt-main/logo-detailed-prompt-main/train.jsonl
+  valid_jsonl: ./logo-detailed-prompt-main/logo-detailed-prompt-main/valid.jsonl
+  loss_mask: assistant_svg_only
+  max_length: 2048
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+training:
+  epochs: 8
+  learning_rate: 0.0002
+  train_batch_size: 1
+  gradient_accumulation_steps: 8
+  seed: 42
+  output_dir: ./adapter
+generation_for_eval:
+  max_new_tokens: 1400
+  do_sample: false
+

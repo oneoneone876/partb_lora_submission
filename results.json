@@ -1,0 +1,29 @@
+{
+  "base_model": {
+    "score": 0.0,
+    "validity": 0.0,
+    "structure": 0.0,
+    "geometry": 0.0,
+    "palette": 0.0,
+    "prompt_fidelity": 0.0,
+    "penalty": 1.0
+  },
+  "lora_model": {
+    "score": 0.050882,
+    "validity": 0.058824,
+    "structure": 0.058824,
+    "geometry": 0.058824,
+    "palette": 0.014706,
+    "prompt_fidelity": 0.05,
+    "penalty": 0.941176
+  },
+  "delta": {
+    "score": 0.050882,
+    "validity": 0.058824,
+    "structure": 0.058824,
+    "geometry": 0.058824,
+    "palette": 0.014706,
+    "prompt_fidelity": 0.05,
+    "penalty": -0.058824
+  }
+}
