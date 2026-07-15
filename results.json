@@ -1,28 +1,32 @@
 {
+  "evaluation_set": "valid.jsonl",
+  "num_examples": 17,
   "base_model": {
+    "name": "Gemma 3 270M",
     "score": 0.0,
     "validity": 0.0,
     "structure": 0.0,
     "geometry": 0.0,
     "palette": 0.0,
     "prompt_fidelity": 0.0,
-    "penalty": 1.0
+    "penalty": 0.0
   },
   "lora_model": {
+    "name": "Gemma 3 270M + LoRA",
     "score": 0.050882,
     "validity": 0.058824,
     "structure": 0.058824,
     "geometry": 0.058824,
-    "palette": 0.014706,
+    "palette": 0.0,
     "prompt_fidelity": 0.05,
-    "penalty": 0.941176
+    "penalty": -0.058824
   },
   "delta": {
     "score": 0.050882,
     "validity": 0.058824,
     "structure": 0.058824,
     "geometry": 0.058824,
-    "palette": 0.014706,
+    "palette": 0.0,
     "prompt_fidelity": 0.05,
     "penalty": -0.058824
   }
